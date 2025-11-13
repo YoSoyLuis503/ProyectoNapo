@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alerta Desbordamiento</title>
+  <meta name="theme-color" content="#0b3d0b">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/slick.css" type="text/css" /> 
@@ -64,19 +65,19 @@ https://templatemo.com/tm-560-astro-motion
             <div class="page-width-1 page-left">
               <div class="d-flex position-relative tm-border-top tm-border-bottom intro-container">
                 <div class="intro-left tm-bg-dark">
-                  <h2 class="mb-4">Mapa Interactivo o Alerta Reciente via FrameView X</h2>
-                  <p class="mb-4">
-                    Espacio donde deberia ir El mapa o El twitter Con la Alerta </p>
-                  <p class="mb-0">
-                  Mejor Pongo los Dos</p>
+                  <h2 class="mb-4"><blockquote class="twitter-tweet"><p lang="es" dir="ltr">Seguro Concacaf va a dejar todo en la última fecha para clasificar como terceros. <br><br>Los equipos de Concacaf: <a href="https://t.co/RyNwEqPlRz">https://t.co/RyNwEqPlRz</a> <a href="https://t.co/aA04UQU47W">pic.twitter.com/aA04UQU47W</a></p>&mdash; San Marino Fútbol 🇸🇲 (@SanMarinoTeam) <a href="https://twitter.com/SanMarinoTeam/status/1988013023014027751?ref_src=twsrc%5Etfw">November 10, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></h2>
+                  <a class="twitter-timeline" href="https://x.com/SanMarinoTeam?ref_src=twsrc%5Etfw">Tweets by SanMarinoTeam</a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
                 <div class="intro-right">
                   <!-- Interactive map for alerts -->
-                  <div id="map" class="map-canvas" aria-label="Mapa interactivo de alertas"></div>
-                  <div class="map-controls mt-3">
-                    <button id="locate-btn" class="btn btn-primary">Mi ubicación</button>
-                    <button id="clear-btn" class="btn btn-secondary">Borrar alertas</button>
-                    <small class="d-block mt-2 text-muted">Haz clic en el mapa para crear una alerta (elige estado y descripción).</small>
+                  <div class="map-card">
+                    <div id="map" class="map-canvas" aria-label="Mapa interactivo de alertas"></div>
+                    <div class="map-controls mt-3">
+                      <button id="locate-btn" class="btn btn-primary">Mi ubicación</button>
+                      <button id="clear-btn" class="btn btn-secondary">Borrar alertas</button>
+                      <small class="d-block mt-2 text-muted">Haz clic en el mapa para crear una alerta (elige estado y descripción).</small>
+                    </div>
                   </div>
                 </div>
                 <div class="circle intro-circle-1"></div>
@@ -239,9 +240,9 @@ https://templatemo.com/tm-560-astro-motion
                   <!-- Map -->
                   <div class="map-outer">
                     <div class="gmap-canvas">
-                        <iframe width="100%" height="400" id="gmap-canvas"
-                            src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <iframe width="100%" height="400" id="gmap-canvas" title="Mapa de ubicación"
+              src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                     </div>
                 </div>
                 </div>
